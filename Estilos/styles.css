@@ -26,7 +26,7 @@ header{
 }
 
 .name span{
-    color: blue;
+    color: rgb(0, 136, 255);
     font-family: "Nerko One", cursive;
     text-shadow: 0 0 30px white;
 }
@@ -47,7 +47,7 @@ header{
 }
 
 .navegador a:hover{
-    color: blue;
+    color: rgb(0, 136, 255);
     text-shadow: 0 0 15px white;
     transition: .6s;
 }
@@ -59,11 +59,47 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .frase{
     color: white;
+    margin: 120px auto 20px;
+    font-size: 80px;
+    font-family: "Nerko One", cursive;
     text-align: center;
-    align-items: center;
 }
 
+.frase span{
+    color: rgb(0, 136, 255);
+}
+
+.autor{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: "Handjet", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.redes{
+    display: flex;
+    margin: 70px auto;
+    gap: 70px;
+}
+
+.links-redes{
+    border: 2px solid white;
+    padding: 10px 10px 7px 10px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.links-redes:hover{
+    border-color: rgb(0, 136, 255);
+    transition: .6s;
+    background-color: rgb(0, 136, 255);
+    box-shadow: 0 0 15px rgb(182, 182, 182);
+}
