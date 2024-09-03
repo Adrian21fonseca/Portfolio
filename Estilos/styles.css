@@ -109,7 +109,7 @@ header{
     flex-direction: column;
     gap: 50px;
     padding: 0 80px;
-    margin: 100px 0;
+    margin: 0;
 }
 
 .html{
@@ -151,6 +151,123 @@ header{
     display: flex;
     margin: 0;
     align-items: center;
-    font-family: "Handjet", sans-serif;
+    font-family: "Nerko One", cursive;
     font-size: 56px;
+}
+
+.skill-superior{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titulo-principal{
+    font-size: 45px;
+    font-family: "Nerko One", cursive;
+    margin: 0;
+    text-shadow: 0 0 4px rgb(0, 136, 255);
+}
+
+.descripcion-de-skills{
+    margin: 0 auto;
+    font-family: "Nerko One", cursive;
+    font-weight: 20px;
+    line-height: 1.5;
+    width: 80%;
+}
+
+#proyectos{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 67%);
+}
+
+.proyectos-superior{
+    font-size: 45px;
+    font-family: "Nerko One", cursive;
+    margin: 50px 0 0 0;
+    text-align: center;
+    text-shadow: 0 0 4px rgb(0, 136, 255);
+}
+
+.descripcion-de-proyectos{
+    margin: 15px auto;
+    font-family: "Nerko One", cursive;
+    font-weight: 20px;
+    line-height: 1.5;
+    width: 80%;
+    text-align: center;
+}
+
+.descripcion-de-proyectos span{
+    color: rgb(0, 136, 255);
+}
+
+.contenedor-proyectos{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-proyecto{
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.imagen-portada{
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.imagen-portada:hover{
+    opacity: .7;
+    transition: .6s;
+}
+
+.titulo-proyecto{
+    font-size: 25px;
+    margin: 5px auto 0;
+    font-family: "Nerko One", cursive;
+}
+
+.descripcion-proyecto{
+    margin: 5px auto 20px;
+    font-family: "Nerko One", cursive;
+    color: rgb(51, 51, 51);
+}
+
+.respositorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.respositorio a{
+    text-decoration: none;
+    color: black;
+    font-family: "Handjet", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+} 
+
+.conclucion{
+    color: white;
+    width: 78%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.mi-git{
+    color: rgb(0, 136, 255);
 }
